@@ -1,0 +1,42 @@
+h1{
+    text-emphasis: center;
+    background-color: aqua;
+    color:blue;
+    font-family: 'Courier New',Courier,monospace;
+    padding: 20px ;
+    align-items: center;
+}
+.image-container{
+    text-align:center;
+    display :flex;
+    justify-content: space-between;
+    flex-direction:column;
+    gap: 18px;
+    align-items: center;
+    
+    
+}
+img{
+    height: 300;
+    width: 300;
+    border-radius: 10%;
+    border-color: blueviolet;
+}
+button{
+    height: 50px ;
+    width: 100px ;
+    align-items:center ;
+    background-color: blue;
+    font-family: 'Courier New',Courier,monospace;
+    cursor:pointer
+}
+body.dark-mode{
+    background-color: black;
+}
+body{
+    background-color: blueviolet;
+}
+h1:hover{
+    background-color: blanchedalmond;
+    border-radius: 20px ;
+}
